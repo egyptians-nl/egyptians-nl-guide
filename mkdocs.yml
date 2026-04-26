@@ -1,0 +1,50 @@
+site_name: Egyptians NL Guide
+site_description: Questions and practical guides for Egyptians living in the Netherlands.
+site_url: https://egyptians-nl.github.io/egyptians-nl-guide/
+repo_url: https://github.com/egyptians-nl/egyptians-nl-guide
+edit_uri: edit/main/docs/
+use_directory_urls: true
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.action.view
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: ar
+          name: العربية
+          build: true
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+
+extra_css:
+  - stylesheets/rtl.css
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started/index.md
+  - Housing: housing/index.md
+  - Healthcare: healthcare/index.md
+  - Residence Permit: residence-permit/index.md
+  - Work: work/index.md
+  - FAQ: faq/index.md
+  - Important Links: links/index.md

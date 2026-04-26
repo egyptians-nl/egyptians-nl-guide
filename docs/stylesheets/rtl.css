@@ -1,0 +1,72 @@
+html[lang="ar"] body,
+html[lang="ar"] .md-content,
+html[lang="ar"] .md-nav,
+html[lang="ar"] .md-header,
+html[lang="ar"] .md-search,
+html[lang="ar"] .md-sidebar,
+html[lang="ar"] .md-typeset {
+  direction: rtl;
+  text-align: right;
+  font-family: "Noto Naskh Arabic", "Amiri", "Tahoma", sans-serif;
+}
+
+html[lang="ar"] .md-header__inner,
+html[lang="ar"] .md-tabs__list,
+html[lang="ar"] .md-nav__list,
+html[lang="ar"] .md-search__inner,
+html[lang="ar"] .md-typeset table:not([class]) {
+  direction: rtl;
+}
+
+html[lang="ar"] .md-search__form,
+html[lang="ar"] .md-search__input,
+html[lang="ar"] .md-search-result__meta,
+html[lang="ar"] .md-typeset .admonition,
+html[lang="ar"] .md-typeset details,
+html[lang="ar"] .md-typeset blockquote {
+  text-align: right;
+}
+
+html[lang="ar"] .md-typeset ul,
+html[lang="ar"] .md-typeset ol {
+  padding-right: 1.25rem;
+  padding-left: 0;
+}
+
+html[lang="ar"] .md-typeset dd {
+  margin-right: 1.5rem;
+  margin-left: 0;
+}
+
+html[lang="ar"] .md-typeset table:not([class]) th,
+html[lang="ar"] .md-typeset table:not([class]) td {
+  text-align: right;
+}
+
+html[lang="ar"] .md-typeset code,
+html[lang="ar"] .md-typeset pre,
+html[lang="ar"] .md-typeset .highlight,
+html[lang="ar"] .md-typeset .highlighttable,
+html[lang="ar"] .md-search__input::placeholder {
+  direction: ltr;
+}
+
+html[lang="ar"] .md-typeset code,
+html[lang="ar"] .md-typeset pre,
+html[lang="ar"] .md-typeset .highlight,
+html[lang="ar"] .md-typeset .highlighttable {
+  text-align: left;
+  unicode-bidi: embed;
+}
+
+html[lang="ar"] .md-typeset .admonition-title::before,
+html[lang="ar"] .md-typeset summary::before {
+  margin-right: 0;
+  margin-left: 0.6rem;
+}
+
+html[lang="ar"] .md-header__option,
+html[lang="ar"] .md-source,
+html[lang="ar"] .md-content__button {
+  direction: ltr;
+}
