@@ -7,7 +7,6 @@ html[lang="ar"] .md-sidebar,
 html[lang="ar"] .md-typeset {
   direction: rtl;
   text-align: right;
-  font-family: "Noto Naskh Arabic", "Amiri", "Tahoma", sans-serif;
 }
 
 html[lang="ar"] .md-header__inner,

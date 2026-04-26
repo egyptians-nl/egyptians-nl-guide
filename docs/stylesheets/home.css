@@ -73,7 +73,7 @@
 
 .md-typeset .home-hero h1 {
   margin: 0 0 1rem;
-  font-size: clamp(2.45rem, 4.9vw, 4.65rem);
+  font-size: 3rem;
   line-height: 0.98;
   color: #fff8ef;
   text-shadow: 0 0.2rem 0.8rem rgba(31, 19, 10, 0.16);
@@ -186,7 +186,7 @@ html[lang="ar"] .footer-contribute {
   }
 
   .md-typeset .home-hero h1 {
-    font-size: clamp(2.1rem, 8vw, 3rem);
+    font-size: 2.25rem;
   }
 
   .md-typeset .home-lead {
