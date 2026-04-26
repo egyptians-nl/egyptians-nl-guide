@@ -23,7 +23,10 @@ html[lang="ar"] .md-search__input,
 html[lang="ar"] .md-search-result__meta,
 html[lang="ar"] .md-typeset .admonition,
 html[lang="ar"] .md-typeset details,
-html[lang="ar"] .md-typeset blockquote {
+html[lang="ar"] .md-typeset blockquote,
+html[lang="ar"] .md-content__inner>p:first-of-type,
+html[lang="ar"] .md-header__topic,
+html[lang="ar"] .md-tabs__link {
   text-align: right;
 }
 
@@ -69,4 +72,33 @@ html[lang="ar"] .md-header__option,
 html[lang="ar"] .md-source,
 html[lang="ar"] .md-content__button {
   direction: ltr;
+}
+
+html[lang="ar"] .md-nav__item .md-nav__link--active {
+  padding-right: 0.45rem;
+  padding-left: 0;
+}
+
+html[lang="ar"] .md-typeset h1,
+html[lang="ar"] .md-typeset h2,
+html[lang="ar"] .md-typeset h3,
+html[lang="ar"] .md-typeset h4 {
+  letter-spacing: 0;
+}
+
+html[lang="ar"] .md-header__option {
+  margin-right: 0.5rem;
+  margin-left: 0;
+}
+
+html[lang="ar"] .md-header__option .md-select__link {
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+html[lang="ar"] .md-typeset table:not([class]),
+html[lang="ar"] .md-typeset blockquote,
+html[lang="ar"] .md-typeset .admonition,
+html[lang="ar"] .md-typeset details {
+  text-align: right;
 }

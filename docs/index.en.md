@@ -1,43 +1,52 @@
-# Egyptians NL Guide
+<div class="home-hero">
+  <p class="home-eyebrow">Community migration guide</p>
+  <h1>Start your move to the Netherlands with the right first steps.</h1>
+  <p class="home-lead">A practical guide for Egyptians who are arriving, settling in, or helping family navigate Dutch systems.</p>
+</div>
 
-Welcome to Egyptians NL Guide, a community-made guide for Egyptians living in the Netherlands or planning to move here soon.
+<div class="home-language-grid">
+  <a class="home-language-card is-active" href="./">
+    <span class="home-language-label">English</span>
+    <span class="home-language-copy">Browse the guide in English</span>
+  </a>
+  <a class="home-language-card" href="./ar/">
+    <span class="home-language-label">العربية</span>
+    <span class="home-language-copy">اقرأ الدليل باللغة العربية</span>
+  </a>
+</div>
 
-This site is for people who want a practical starting point in English or Arabic. It focuses on the questions that usually come up first: registration, BSN, DigiD, housing, healthcare, residence permits, work, and day-to-day systems in the Netherlands.
+<div class="home-topic-grid">
+  <a class="home-topic-card" href="getting-started/">
+    <strong>Getting Started</strong>
+    <span>Registration, BSN, DigiD, and your first admin steps.</span>
+  </a>
+  <a class="home-topic-card" href="housing/">
+    <strong>Housing</strong>
+    <span>Rental basics, common risks, and how to search safely.</span>
+  </a>
+  <a class="home-topic-card" href="healthcare/">
+    <strong>Healthcare</strong>
+    <span>Insurance, GP basics, and how the system usually works.</span>
+  </a>
+  <a class="home-topic-card" href="residence-permit/">
+    <strong>Residence Permit</strong>
+    <span>Routes, official checks, and where to verify details.</span>
+  </a>
+  <a class="home-topic-card" href="work/">
+    <strong>Work</strong>
+    <span>Contracts, taxes, freelance basics, and key work topics.</span>
+  </a>
+  <a class="home-topic-card" href="faq/">
+    <strong>FAQ</strong>
+    <span>Common early questions collected in one place.</span>
+  </a>
+</div>
 
-## What this guide covers
+## Before you rely on any step
 
-- First steps after arrival
-- Housing basics and common risks
-- How Dutch healthcare usually works
-- Residence permit topics and where to verify them
-- Work, contracts, taxes, and freelance basics
-- Common questions collected in one place
-
-## Who it is for
-
-This guide is especially useful for:
-
-- Egyptians arriving for work, study, or family reasons
-- People helping a relative or friend settle in
-- New residents trying to understand Dutch systems faster
-
-## Use this guide carefully
-
-This is a community guide, not legal, immigration, tax, or medical advice. Rules, fees, and procedures can change. For important decisions, always verify details with the official source before acting.
-
-For example:
-
-- Immigration: check IND
-- Taxes: check Belastingdienst
-- Healthcare: check official Dutch healthcare sources or your insurer
-
-## Start here
-
-If you are newly arrived, begin with [Getting Started](getting-started/index.md). Then continue to the sections on [Housing](housing/index.md), [Healthcare](healthcare/index.md), [Residence Permit](residence-permit/index.md), [Work](work/index.md), and [FAQ](faq/index.md).
-
-## Official starting points
+This is a community guide, not legal, immigration, tax, or medical advice. Always confirm important details with the official source before acting.
 
 - [Government.nl: moving to the Netherlands](https://www.government.nl/topics/immigration-to-the-netherlands/question-and-answer/what-do-i-need-to-arrange-if-i%E2%80%99m-moving-to-the-netherlands)
 - [Government.nl: citizen service number (BSN)](https://www.government.nl/topics/personal-data/citizen-service-number-bsn)
 - [DigiD: apply and activate](https://www.digid.nl/en/apply-and-activate)
-- [Important Links](links/index.md) for national and city-specific official links
+- [Important Links](links/index.md)

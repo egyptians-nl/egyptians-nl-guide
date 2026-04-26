@@ -5,11 +5,7 @@
 	"description": "Project helpers for the MkDocs-based Egyptians NL Guide.",
 	"scripts": {
 		"setup": "node scripts/tasks.mjs setup",
-		"install:python": "node scripts/tasks.mjs install:python",
 		"serve": "node scripts/tasks.mjs serve",
-		"build": "node scripts/tasks.mjs build",
-		"check": "node scripts/tasks.mjs check",
-		"clean": "node scripts/tasks.mjs clean",
-		"help": "node scripts/tasks.mjs help"
+		"build": "node scripts/tasks.mjs build"
 	}
 }
