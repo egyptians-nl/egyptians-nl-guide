@@ -9,6 +9,7 @@ theme:
   language: en
   logo: assets/brand-badge-optimized.png
   favicon: assets/brand-badge-optimized.png
+  generator: false
   features:
     - navigation.tabs
     - navigation.tabs.sticky

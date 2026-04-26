@@ -32,7 +32,7 @@
   pointer-events: none;
 }
 
-.md-typeset .home-hero > * {
+.md-typeset .home-hero>* {
   position: relative;
   z-index: 1;
   max-width: 40rem;
@@ -149,6 +149,7 @@
 .footer-contribute {
   margin-left: 0.4rem;
   white-space: nowrap;
+  color: var(--guide-muted);
 }
 
 html[lang="ar"] .footer-contribute {
