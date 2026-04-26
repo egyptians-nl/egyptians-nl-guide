@@ -9,17 +9,62 @@
 }
 
 .md-typeset .home-hero {
-  padding: 1.5rem;
-  border: 1px solid color-mix(in srgb, var(--md-default-fg-color--lightest) 55%, transparent);
-  border-radius: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  min-height: 26rem;
+  padding: 1.8rem;
+  border: 1px solid color-mix(in srgb, var(--guide-line) 95%, transparent);
+  border-radius: 1.5rem;
   background:
-    radial-gradient(circle at top left, rgba(200, 109, 42, 0.14), transparent 35%),
-    linear-gradient(135deg, rgba(177, 84, 24, 0.08), rgba(14, 116, 144, 0.08));
+    linear-gradient(90deg, rgba(44, 29, 18, 0.62) 0%, rgba(44, 29, 18, 0.48) 30%, rgba(44, 29, 18, 0.16) 52%, rgba(44, 29, 18, 0.04) 100%),
+    radial-gradient(circle at top left, rgba(255, 214, 156, 0.24), transparent 34%),
+    url("../assets/home-hero-community.jpg") center right / cover no-repeat;
+  box-shadow: 0 1.2rem 2.8rem rgba(95, 69, 42, 0.14);
+}
+
+.md-typeset .home-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(255, 247, 236, 0.06), transparent 24%, rgba(255, 247, 236, 0.06) 100%),
+    radial-gradient(circle at top left, rgba(255, 248, 235, 0.22), transparent 26%);
+  pointer-events: none;
+}
+
+.md-typeset .home-hero > * {
+  position: relative;
+  z-index: 1;
+  max-width: 36rem;
+}
+
+.md-typeset .home-hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1.15rem;
+  padding: 0.45rem 0.8rem 0.45rem 0.55rem;
+  border: 1px solid rgba(255, 240, 217, 0.26);
+  border-radius: 999px;
+  background: rgba(255, 247, 236, 0.12);
+  backdrop-filter: blur(10px);
+}
+
+.md-typeset .home-hero-badge img {
+  width: 2.6rem;
+  height: 2.6rem;
+  flex: 0 0 auto;
+}
+
+.md-typeset .home-hero-badge span {
+  color: rgba(255, 245, 232, 0.94);
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 .md-typeset .home-eyebrow {
   margin: 0 0 0.75rem;
-  color: var(--md-primary-fg-color);
+  color: rgba(255, 220, 167, 0.98);
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -30,13 +75,15 @@
   margin: 0 0 0.75rem;
   font-size: clamp(2rem, 4vw, 3.25rem);
   line-height: 1.05;
+  color: #fff6ea;
+  text-shadow: 0 0.16rem 0.8rem rgba(31, 19, 10, 0.24);
 }
 
 .md-typeset .home-lead {
-  max-width: 42rem;
   margin: 0;
   font-size: 1.05rem;
-  color: var(--md-default-fg-color--light);
+  color: rgba(255, 241, 224, 0.92);
+  text-shadow: 0 0.1rem 0.45rem rgba(31, 19, 10, 0.18);
 }
 
 .md-typeset .home-language-grid,
@@ -62,7 +109,7 @@
   padding: 1.1rem 1.2rem;
   border: 1px solid color-mix(in srgb, var(--md-default-fg-color--lightest) 60%, transparent);
   border-radius: 1rem;
-  background: var(--md-default-bg-color);
+  background: rgba(255, 251, 246, 0.94);
   box-shadow: 0 0.6rem 1.6rem rgba(15, 23, 42, 0.06);
   transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
 }
@@ -76,7 +123,7 @@
 
 .md-typeset .home-language-card.is-active {
   border-color: color-mix(in srgb, var(--md-primary-fg-color) 55%, white);
-  background: color-mix(in srgb, var(--md-primary-fg-color) 7%, white);
+  background: color-mix(in srgb, var(--md-primary-fg-color) 9%, white);
 }
 
 .md-typeset .home-language-label {
@@ -108,7 +155,20 @@ html[lang="ar"] .footer-contribute {
 
 @media screen and (max-width: 44.9375em) {
   .md-typeset .home-hero {
+    min-height: auto;
     padding: 1.2rem;
+    background:
+      linear-gradient(180deg, rgba(44, 29, 18, 0.54) 0%, rgba(44, 29, 18, 0.42) 100%),
+      url("../assets/home-hero-community.jpg") 62% center / cover no-repeat;
+  }
+
+  .md-typeset .home-hero-badge {
+    margin-bottom: 0.9rem;
+  }
+
+  .md-typeset .home-hero-badge img {
+    width: 2.25rem;
+    height: 2.25rem;
   }
 
   .md-typeset .home-language-grid,

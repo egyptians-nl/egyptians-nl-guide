@@ -7,6 +7,8 @@ copyright: Community-made guide for Egyptians in the Netherlands. <a class="foot
 theme:
   name: material
   language: en
+  logo: assets/brand-badge-optimized.png
+  favicon: assets/brand-badge-optimized.png
   features:
     - navigation.tabs
     - navigation.sections

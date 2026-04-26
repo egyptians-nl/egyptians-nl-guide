@@ -85,6 +85,21 @@ body[data-md-color-primary] {
   max-width: 78rem;
 }
 
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.md-header__button.md-logo {
+  margin: 0.1rem 0.45rem 0.1rem 0;
+  padding: 0;
+}
+
+.md-header__title .md-header__topic:first-child {
+  font-weight: 700;
+}
+
 .md-tabs {
   background:
     linear-gradient(180deg, rgba(250, 243, 231, 0.96), rgba(245, 235, 219, 0.96));

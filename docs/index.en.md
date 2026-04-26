@@ -1,4 +1,8 @@
 <div class="home-hero">
+  <div class="home-hero-badge">
+    <img src="assets/brand-badge-optimized.png" alt="Egyptians NL Guide badge">
+    <span>Egyptians NL Guide</span>
+  </div>
   <p class="home-eyebrow">Community migration guide</p>
   <h1>Start your move to the Netherlands with the right first steps.</h1>
   <p class="home-lead">A practical guide for Egyptians who are arriving, settling in, or helping family navigate Dutch systems.</p>
