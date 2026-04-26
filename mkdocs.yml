@@ -13,9 +13,19 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.indexes
+    - toc.follow
     - navigation.top
     - search.suggest
     - search.highlight
+
+extra:
+  alternate:
+    - name: 🇬🇧 English
+      link: /
+      lang: en
+    - name: 🇪🇬 العربية
+      link: /ar/
+      lang: ar
 
 plugins:
   - search

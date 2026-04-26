@@ -1,11 +1,10 @@
 {
 	"name": "egyptians-nl-guide",
 	"private": true,
-	"type": "module",
-	"description": "Project helpers for the MkDocs-based Egyptians NL Guide.",
+	"description": "Minimal npm wrappers for the MkDocs site.",
 	"scripts": {
-		"setup": "node scripts/tasks.mjs setup",
-		"serve": "node scripts/tasks.mjs serve",
-		"build": "node scripts/tasks.mjs build"
+		"setup": "python3 -m pip install -r requirements.txt",
+		"start": "python3 -m mkdocs serve --livereload",
+		"build": "python3 -m mkdocs build --strict"
 	}
 }
